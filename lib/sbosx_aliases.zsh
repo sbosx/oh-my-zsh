@@ -38,9 +38,9 @@ alias leak='valgrind --tool=memcheck --leak-check=yes --show-reachable=yes --num
 
 alias repanel='killall plasma-desktop ; plasma-desktop'
 
-alias backup='~/Desktop/Debian_format/before_format.sh ; sudo rsync -av --delete --delete-excluded --stats --progress --exclude 'Downloads' /home/sbosx/ /media/sbosx_disk/sbosxBackUp/'
+alias backup='~/Desktop/Debian_format/before_format.sh ; sudo rsync -av --delete --delete-excluded --stats --progress --exclude '.cache' --exclude 'Downloads' /home/sbosx/ /media/sbosx_disk/sbosxBackUp/'
 
-alias backup_usb0=' ~/Desktop/Debian_format/before_format.sh ; sudo rsync -av --delete --delete-excluded --stats --progress --exclude 'Downloads' /home/sbosx/ /media/usb0/sbosxBackUp/'
+alias backup_usb0=' ~/Desktop/Debian_format/before_format.sh ; sudo rsync -av --delete --delete-excluded --stats --progress --exclude '.cache' --exclude 'Downloads' /home/sbosx/ /media/usb0/sbosxBackUp/'
 
 alias remonitor='xrandr --auto'
 
