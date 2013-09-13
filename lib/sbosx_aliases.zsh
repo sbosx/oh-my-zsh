@@ -51,3 +51,9 @@ alias backup_mails='/usr/bin/getmail -r /home/sbosx/.getmail/getmail.gmail'
 alias ink_level='sudo modprobe usblp ; sudo ink -p usb ; sudo modprobe -r usblp'
 
 alias radio='python ~/radio.py'
+
+alias api='cd ~/Development/m-api'
+
+alias hbci-app='cd ~/Development/m-api/m-hbci-app'
+
+alias hbci-service='cd ~/Development/m-api/m-hbci-service'
